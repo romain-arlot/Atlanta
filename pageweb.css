@@ -1,0 +1,93 @@
+p {
+	font-family: georgia, arial, sans-serif;
+	color: darkblue;
+	font-size: 14px;
+}
+body {
+	background-image: url(arena.jpg);
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-attachment: fixed;
+	background-color: rgb(173,216, 230);
+	background-size: cover;
+}
+
+header {
+		border: groove red 4px;
+		border-radius: 20px;
+		background: linear-gradient(to bottom, yellow, orange, red);
+		text-align: center;
+		box-shadow: 2px 2px 4px black;	
+}
+header h1 {
+	font-family: broadway, algerian, serif;
+	color: rgb(150, 70, 30);
+	text-shadow: 1px 1px 2px black;
+}
+
+nav {
+	position: absolute;
+	left: 1%;
+	border: 1px dashed black;
+	background-color:rgba(230, 230, 230, 0.7) ;
+	width: 15%;
+	padding: 0.5%;
+	margin: 1% 0 0 0;
+}
+nav h1 {
+	font-family: helvetica, georgia, sans-serif;
+	color: rgb(150, 70, 30);
+}
+section {
+	position: relative;
+	left: 18%;
+	width: 80%;
+	padding: 0.5%;
+	margin: 1% 0 0 0;
+	border: solid black 1px;
+	background-color: rgba(230, 230, 230, 0.7);
+}
+aside {
+	float: right;
+	border: solid 1px black ;
+	background-color: lavander;
+	padding: 0.5% ;
+	width: 15% ;
+	height: 300px ;
+	overflow: auto;
+}
+aside h1 {
+	font-family: arial, sans-serif;
+	color: rgb(150, 70, 30);
+}
+article h2, article h3 {
+	font-family: helvetica, arial, sans-serif;
+	color: rgb(150, 70, 30);
+}
+article p {
+	text-align: justify;
+}
+/*mise en page du footer : 3 blocs sur la même ligne au lieu de 3 blocs les uns en dessous des autres (les div sont des élements de type bloc)*/
+footer{margin: auto;
+width: 60%;}
+
+article p{
+	text-align: justify;
+}
+#gauche, #milieu, #droite {
+	display: inline-block;
+	width: 40%;
+	border: solid 1px black;
+	border-radius: 20px;
+	background-color: rgb(240, 240, 240);
+	padding: 1%;
+}
+
+
+
+
+
+
+
+
+
